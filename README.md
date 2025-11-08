@@ -6,16 +6,12 @@ this tool watches your `.abc` files and **renders them in real time** into **PDF
 It supports both **interleaved** and **regular** ABC formats.
 Further features remain to be explored 🚀
 
----
-
 ## 🧩 Requirements
 
 - Python ≥ 3.8
 - [MuseScore 4](https://musescore.org) (CLI accessible as `mscore`)
 Optional:
 - `ffmpeg` – for MP3 export
-
----
 
 ## 🚀 Usage
 
@@ -38,8 +34,6 @@ def parse_args() -> argparse.Namespace:
     return ap.parse_args()
 ```
 
----
-
 ## 📚 Resources
 
 - [MIT Easy ABC Guide](https://trillian.mit.edu/~jc/music/abc/doc/ABC.html)  
@@ -50,7 +44,5 @@ Example datasets:
 - 🎻 [Kunst der Fuge](https://www.kunstderfuge.com/) – Classical pieces  
 - 🎵 [ABC Notation Collection](https://abcnotation.com/) – Folk and traditional tunes  
 
-⸻
-
-🪶 License
+License
 MIT License © 2025 Langchu Huang
